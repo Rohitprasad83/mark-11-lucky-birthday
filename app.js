@@ -8,6 +8,7 @@ checkNumber.addEventListener("click", function(){
     var digSum = 0;
     for(var i = 0; i < date.length; i++){
         digSum += Number(date.charAt(i));
+        console.log()
     }
 
     if(luckyNumber.value > 0){
@@ -20,17 +21,13 @@ checkNumber.addEventListener("click", function(){
             outputMessage.innerText = "your birthday is NOT lucky, so sad";
         }   
     }
-    else if(luckyNumber.value < 0)
+    else if(Number(luckyNumber.value) < 0)
     {
         showErrorMessage("Lucky number cannot be negative!");
     }
-    else if(luckyNumber.value == 0)
-    {
-        showErrorMessage("Lucky Number cannot be zero, Try Again!");
-    }
     else
     {
-        showErrorMessage("Lucky Number should be a Number, Try Again!");
+        showErrorMessage("Invalid Input, Try again!");
     }
 
 })

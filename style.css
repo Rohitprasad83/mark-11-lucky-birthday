@@ -27,3 +27,27 @@ button {
   outline: none;
   cursor: pointer;
 }
+
+footer {
+  width: 85%;
+  position: fixed;
+  bottom: 0;
+  padding: 1rem;
+  margin: 0.5rem auto;
+  text-align: center;
+}
+
+ul {
+  width: 100%;
+  list-style-type: none;
+  margin: 0.5rem auto;
+  text-align: center;
+}
+li {
+  display: inline;
+  float: left;
+  padding: 0.5rem;
+  margin: 0 auto;
+  /* width: 85%; */
+  text-align: ce;
+}
