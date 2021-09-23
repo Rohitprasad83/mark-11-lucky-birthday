@@ -14,7 +14,7 @@ checkNumber.addEventListener("click", function(){
     if(luckyNumber.value > 0){
     if(digSum % Number(luckyNumber.value) == 0)
         {
-            outputMessage.innerText = "Your birthday is luck 🥳 🥳 🥳";
+            outputMessage.innerText = "Yay! Your birthday is lucky 🥳 🥳 🥳";
         }
         else
         {
