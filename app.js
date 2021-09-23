@@ -14,11 +14,11 @@ checkNumber.addEventListener("click", function(){
     if(luckyNumber.value > 0){
     if(digSum % Number(luckyNumber.value) == 0)
         {
-            outputMessage.innerText = "Your birthday is lucky";
+            outputMessage.innerText = "Your birthday is luck 🥳 🥳 🥳";
         }
         else
         {
-            outputMessage.innerText = "Your birthday is NOT lucky, so sad";
+            outputMessage.innerText = "Your birthday is NOT lucky, so sad 😕";
         }   
     }
     else if(Number(luckyNumber.value) < 0)

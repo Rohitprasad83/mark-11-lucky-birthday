@@ -8,6 +8,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+h1 {
+  margin-top: 100px;
+}
+
 label {
   display: block;
   width: 80%;
