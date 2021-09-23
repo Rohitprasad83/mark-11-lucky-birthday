@@ -16,6 +16,7 @@ label {
   display: block;
   width: 80%;
   margin: 1rem auto;
+  font-weight: bold;
 }
 
 input {
@@ -36,13 +37,17 @@ button {
   cursor: pointer;
 }
 
+#privacy {
+  color: red;
+  font-size: 18px;
+}
+
 #output-message {
   font-weight: bold;
   font-size: 1.5em;
 }
 
 .footer {
-  /* position: fixed; */
   bottom: 0;
   margin-top: 200px;
   padding: 1rem;
