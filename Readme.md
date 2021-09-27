@@ -6,7 +6,7 @@ This is a Lucky Birthday checker app, the app will check whether your birthday d
 
 ## **Interface of the app**
 
-<img src="./images/interface.png" alt="interface" width="450"/>
+<img src="./images/interface.png" alt="interface" width="600"/>
 
 ---
 
