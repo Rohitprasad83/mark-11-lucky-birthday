@@ -4,12 +4,14 @@ var checkNumber = document.querySelector("#check-number");
 var outputMessage = document.querySelector("#output-message");
 checkNumber.addEventListener("click", function(){
 
+    if(dateOfBirth.value){
     var date = dateOfBirth.value.replaceAll("-", "");
     var digSum = 0;
     for(var i = 0; i < date.length; i++){
         digSum += Number(date.charAt(i));
         console.log()
     }
+
 
     if(luckyNumber.value > 0){
     if(digSum % Number(luckyNumber.value) == 0)
@@ -29,6 +31,11 @@ checkNumber.addEventListener("click", function(){
     {
         showErrorMessage("Invalid Input, Try again!");
     }
+}
+else
+{
+    showErrorMessage("Please Enter your birthday!")
+}
 
 })
 
